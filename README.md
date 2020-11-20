@@ -18,6 +18,14 @@ React가 사용자 정의 컴포넌트로 작성한 엘리먼트를 발견하면
 
 props를 사용하면 부모 컴포넌트에서 자식 컴포넌트로 정보가 흘러가게 할 수 있다.
 
+## State
+
+무언가를 "기억하기"위해 component는 state를 사용한다.
+
+React 컴포넌트는 생성자에 this.state를 설정하는 것으로 state를 가질 수 있다.
+
+컴포넌트에서 setState를 호출하면 React는 자동으로 컴포넌트 내부의 자식 컴포넌트 역시 업데이트한다.
+
 ## 출처
 
 https://ko.reactjs.org/tutorial/tutorial.html
