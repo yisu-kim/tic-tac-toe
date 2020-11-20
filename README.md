@@ -1,6 +1,8 @@
 # Tic Tac Toe
 
-React 자습서 학습
+> ℹ️ React 자습서 학습
+>
+> https://ko.reactjs.org/tutorial/tutorial.html
 
 ## React란
 
@@ -26,6 +28,12 @@ React 컴포넌트는 생성자에 this.state를 설정하는 것으로 state를
 
 컴포넌트에서 setState를 호출하면 React는 자동으로 컴포넌트 내부의 자식 컴포넌트 역시 업데이트한다.
 
-## 출처
+## State 끌어올리기
 
-https://ko.reactjs.org/tutorial/tutorial.html
+여러개의 자식으로부터 데이터를 모으거나 두 개의 자식 컴포넌트들이 서로 통신하게 하려면 부모 컴포넌트에 공유 state를 정의해야 한다.
+
+부모 컴포넌트는 props를 사용하여 자식 컴포넌트에 state를 다시 전달할 수 있다.
+
+이것은 자식 컴포넌트들이 서로 또는 부모 컴포넌트와 동기화 하도록 만든다.
+
+React에서 이벤트를 나타내는 prop에는 on[Event], 이벤트를 처리하는 함수에는 handle[Event]를 사용하는 것이 일반적이다.
