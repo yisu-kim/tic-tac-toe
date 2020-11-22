@@ -4,6 +4,8 @@
 >
 > https://ko.reactjs.org/tutorial/tutorial.html
 
+![tic tac toe](images/Tic%20Tac%20Toe.png)
+
 ## React란
 
 React는 사용자 인터페이스를 구축하기 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리이다.
